@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"> 
     <link rel="stylesheet" href="./stylesheets/style.css">
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
@@ -21,6 +22,7 @@
                     <div class="box1">
                         <div class="item">
                             <p>12 מרץ | 19:30-21:00</p>
+                            <p></p>
                         </div>
                         <div class="item">
                             <h1>סדנת ריקוד הלידה</h1>
@@ -31,7 +33,7 @@
                             <p>סטודיו MOVE אשדוד</p>
                         </div>
                         <div id="logo" class="item">
-                            <img src="./images/logo.png" alt="">
+                            <img src="./images/LOGO-W.png" alt="">
                         </div>
                     </div>
                 <!-- </div> -->
@@ -41,7 +43,8 @@
 
                     <p>מפגש חד פעמי באורך של שעה וחצי </p>
                     <h4>עלות ₪100</h4>
-                    <i class="cc paypal icon"></i>
+                    <p></p>
+                    <div id="paypal-button"></div>
                     <p>לחצי לתשלום באמצעות כרטיס אשראי או PayPal</p>
 
             </div>
@@ -85,12 +88,10 @@
                         <div class="content">
                             <h4>הגוף שלך יודע ללדת, <br>הידע הקדום הרי נמצא בתוכך ומחכה להתעורר. <br>
                             לקראת הלידה אני מזמינה אותך לעורר את היצר הנשי הקדום שלך בקול ובתנועה.</h4>
-                        <br>
                         <p><span><strong> אז מה זה ריקוד הלידה?</strong></span><br>
                                 ריקוד הלידה – הכנה מדיטטיבית בתנועה, היא שיטה שפותחה על ידי גילה רונאל כהכנה גופנית ללידה שמובילה גם להכנה רגשית.<br> השיטה עושה שימוש באלמנטים הקיימים בך – נשימה,  הרפיה , תנועה  וקול – שעל ידי תרגול הופכים לכלי אחד. זהו תרגול עוצמתי ומעשי להכנת הגוף והנפש ללידה.</p>
                                 
                               <p>בסדנת ריקוד הלידה נתרגל באמצעות אלמנטים בסיסיים הגלומים בתוכך: נשימה, הרפיה, קול ותנועה ונאחד את כל אלה לכדי כלי אחד שישמש אותך במהלך כל הלידה ובהתמודדות עם הצירים. ככל שתתרגלי יותר את ריקוד הלידה במהלך ההריון תוכלי להגיע מוכנה יותר אל הלידה ולהיכנס למצב הכרתי-מדיטטיבי, שחשוב מאוד כדי לעזור לתהליך הלידה להפרשת קוקטייל ההורמונים הייחודי ללידה.</p>
-                            <i class="cc paypal icon"></i>
                         </div>        
                 </div>
             </div>
@@ -98,15 +99,16 @@
     <div class="footer">
 <div class="ui main container">
     <div class="ui stackable grid">
-        <div class="five wide column">
+        <div class="seven wide column">
             <img src="./images/logo.png" alt="הדולה">
         </div>
-        <div class="six wide column">
-            <img src="./images/sarah.jpg" alt="שרה גרשון הדולה">
+        <div class="three wide column">
+            <img src="./images/PIC01.png" alt="שרה גרשון הדולה">
         </div>
-        <div class="five wide column">
+        <div id="textMe" class="six wide column">
             <p>שרה גרשון, בוגרת אמאלדת בבי"ח לניאדו, מלווה נשים סביב תקופת ההיריון, הלידה וההורות הראשונית. "מאמינה בכל ליבי שלידה יכולה וצריכה להיות חיובית, רגועה וטובה" 
                     התקשרי לתיאום פגישת היכרות 054-7899867</p>
+                    <p></p>
         </div>
     </div>
 </div>
@@ -117,5 +119,7 @@
         <i class="globe icon"></i>
 </div>
 
+
+<script src="paypal.js"></script>
 </body>
 </html>
