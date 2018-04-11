@@ -8,7 +8,8 @@ html, body{
     margin: 0px;   
     height: 100%;
     width: 100%;
-    line-height: 1.5rem;
+    line-height: 1.1rem;
+    /* letter-spacing: 1px; */
     direction: rtl;
     font-family: 'Arimo', sans-serif;
 }
@@ -106,7 +107,7 @@ img{
     padding: 1rem;
     text-align: center;
     font-size: 1.5rem;
-    background-color:rgba(255, 255, 255, 0.836);
+    background-color:rgba(255, 255, 255, 0.9);
     color: #000;
     border-radius: 5px;
 }
@@ -120,7 +121,6 @@ img{
 
 .content i{
     font-size: 5rem;
-    color: gold;
     height: 1rem;
 }
 .footer{
@@ -162,6 +162,16 @@ img{
 
 #paypal-button{
     margin-top: 1rem;
+}
+
+.paypal.icon{
+    color: #f172a7;
+    transition: all 0.5s ease;
+}
+
+.paypal.icon:hover {
+    color: #f05d9a;
+    cursor: pointer;
 }
 
 

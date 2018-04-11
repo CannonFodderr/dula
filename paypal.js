@@ -16,7 +16,8 @@ funding: {
   style: {
     fundingicons: true,
     color: 'blue',
-    size: 'large'
+    size: 'large',
+    shape: 'rect'
   },
 
 
@@ -36,7 +37,7 @@ funding: {
 
   onAuthorize: function(data, actions) {
     return actions.payment.execute().then(function(payment) {
-        alert('Thank you!');
+        alert('תודה נתראה בסדנה!');
         // The payment is complete!
         // You can now show a confirmation message to the customer
     });
