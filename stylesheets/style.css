@@ -21,6 +21,7 @@ body{
     background-attachment: fixed;
     background-size:cover;
     background-repeat: no-repeat;
+    background-position-x: center;
 
 }
 img{
@@ -93,20 +94,21 @@ img{
     display: inline;
     color: #f172a7;
     margin: 1rem auto;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .box3 p{
     display: inline;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .content{
     padding: 1rem;
     text-align: center;
     font-size: 1.5rem;
-    background-color:#fff;
+    background-color:rgba(255, 255, 255, 0.836);
     color: #000;
+    border-radius: 5px;
 }
 .content h4{
     color: #f172a7;
@@ -144,7 +146,7 @@ img{
 
 .social{
     height: auto;
-    padding: 1rem;
+    padding: 1rem 0 1rem 0;
     background-color: #818285;
     text-align: center;
 }
@@ -152,6 +154,7 @@ img{
 .social i{
     color: #f172a7;
     font-size: 2rem;
+    margin: 0 0.1rem 0 1rem;
 }
  #textMe{
      font-size: 1.1rem;
@@ -165,7 +168,7 @@ img{
 
 
 
-@media  (max-width: 768px){
+@media  (max-width: 1200px){
     .banner{
         background-position: center;
     }
@@ -174,5 +177,13 @@ img{
     }
     .box1{
         width:100%;
-    } 
+    }
+    .box3 p{
+        display: grid;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .box3 i{
+        font-size: 2rem;
+    }
 }
