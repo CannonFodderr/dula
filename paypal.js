@@ -16,7 +16,7 @@ funding: {
   style: {
     fundingicons: true,
     color: 'blue',
-    size: 'large',
+    size: 'responsive',
     shape: 'rect'
   },
 

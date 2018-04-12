@@ -160,6 +160,12 @@ img{
     cursor: pointer;
 }
 
+.payContainer{
+    position: relative;
+    margin: 0 auto;
+    width: 30%;
+}
+
 
 @media  (max-width: 1200px){
     .banner{
@@ -179,4 +185,8 @@ img{
     .box3 i{
         font-size: 2rem;
     }
+    .payContainer{
+        width: 100%;
+    }
 }
+
